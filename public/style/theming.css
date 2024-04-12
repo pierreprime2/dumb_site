@@ -1,0 +1,103 @@
+.blue_main_color {
+    color: aqua;
+}
+
+.blue_sec_color {
+    color: palevioletred;
+}
+
+.blue_main_background {
+    background-color: aqua;
+}
+
+.blue_sec_background {
+    background-color: palevioletred;
+}
+
+.blue_sec_bold_border {
+    border: 2px solid palevioletred;
+}
+
+.blue_main_border {
+    border: 1px solid aqua;
+}
+
+.blue_main_bold_border {
+    border: 2px solid aqua;
+}
+
+#blue_home pre:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.red_main_color {
+    color: lightcoral;
+}
+
+.red_sec_color {
+    color: cadetblue;
+}
+
+.red_main_background {
+    background-color: lightcoral;
+}
+
+.red_sec_background {
+    background-color: cadetblue;
+}
+
+.red_sec_bold_border {
+    border: 2px solid cadetblue;
+}
+
+.red_main_border {
+    border: 1px solid lightcoral;
+}
+
+.red_main_bold_border {
+    border: 2px solid lightcoral;
+}
+
+#red_home pre:hover {
+    background-color: lightcoral;
+    color: black;
+}
+
+.yellow_main_color {
+    color: yellow;
+}
+
+.yellow_sec_color {
+    color: fuchsia;
+}
+
+.yellow_main_background {
+    background-color: yellow;
+}
+
+.yellow_sec_background {
+    background-color: fuchsia;
+}
+
+.yellow_sec_bold_border {
+    border: 2px solid fuchsia;
+}
+
+.yellow_main_border {
+    border: 1px solid yellow;
+}
+
+.yellow_main_bold_border {
+    border: 2px solid yellow;
+}
+
+#yellow_home pre:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.yellow_wide_button {
+    color: yellow;
+    background-color: black;
+}

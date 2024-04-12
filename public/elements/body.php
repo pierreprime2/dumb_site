@@ -1,0 +1,1 @@
+<body class="<?= $theme ?>_main_color" bgcolor="black" text="#32cd32" id="crt">

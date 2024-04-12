@@ -1,0 +1,46 @@
+#msg_from, #msg_topic {
+    color: black;
+    height: 50px; /* Set the desired fixed height for #msg_from and #msg_topic */
+}
+
+#msg_body {
+    overflow-y: auto;
+    height: 100%; /* Ensure #msg_body takes up all available height */
+}
+
+#msg_body td {
+    font-weight: normal;
+    padding: 10px;
+}
+
+.msg_controls {
+    display: inline-block;
+}
+
+.message_display_container {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    display: inline-block;
+    width: 55%;
+    height: 400px;
+}
+
+#message_display {
+    height: 90%;
+    border-collapse: collapse;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#message_display tbody {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.message_display_container button {
+    width: 30%;
+}

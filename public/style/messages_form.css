@@ -1,0 +1,12 @@
+#message_form_container {
+    /*position: relative;*/
+    /*width: 100%;*/
+}
+
+#message_form {
+    display: none;
+}
+
+#message_form input[type="text"]:focus, #message_form textarea:focus {
+    /*background-color: palevioletred;*/
+}

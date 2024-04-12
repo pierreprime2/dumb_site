@@ -1,0 +1,171 @@
+#crt::after {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    z-index: 1000;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+}
+
+#crt::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    linear-gradient(
+            90deg,
+            rgba(255, 0, 0, 0.06),
+            rgba(0, 255, 0, 0.02),
+            rgba(0, 0, 255, 0.06)
+    );
+    z-index: 1000;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+#crt {
+    animation: textShadow 1.6s infinite;
+}
+
+/* CRT effect with more subtle effects */
+@keyframes flicker {
+    0% {
+        opacity: 0.97; /* Adjusted opacity values */
+    }
+    5% {
+        opacity: 0.98;
+    }
+    10% {
+        opacity: 0.96;
+    }
+    15% {
+        opacity: 0.985;
+    }
+    20% {
+        opacity: 0.96;
+    }
+    25% {
+        opacity: 0.98;
+    }
+    30% {
+        opacity: 0.975;
+    }
+    35% {
+        opacity: 0.98;
+    }
+    40% {
+        opacity: 0.96;
+    }
+    45% {
+        opacity: 0.985;
+    }
+    50% {
+        opacity: 0.99;
+    }
+    55% {
+        opacity: 0.96;
+    }
+    60% {
+        opacity: 0.965;
+    }
+    65% {
+        opacity: 0.975;
+    }
+    70% {
+        opacity: 0.97;
+    }
+    75% {
+        opacity: 0.965;
+    }
+    80% {
+        opacity: 0.97;
+    }
+    85% {
+        opacity: 0.97;
+    }
+    90% {
+        opacity: 0.965;
+    }
+    95% {
+        opacity: 0.96;
+    }
+    100% {
+        opacity: 0.96;
+    }
+}
+
+@keyframes textShadow {
+    0% {
+        text-shadow: 0.2px 0 1px rgba(0, 30, 255, 0.5), -0.2px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    5% {
+        text-shadow: 0.5px 0 1px rgba(0, 30, 255, 0.5), -0.5px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    10% {
+        text-shadow: 0.05px 0 1px rgba(0, 30, 255, 0.5), -0.05px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    15% {
+        text-shadow: 0.2px 0 1px rgba(0, 30, 255, 0.5), -0.2px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    20% {
+        text-shadow: 0.7px 0 1px rgba(0, 30, 255, 0.5), -0.7px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    25% {
+        text-shadow: 0.3px 0 1px rgba(0, 30, 255, 0.5), -0.3px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    30% {
+        text-shadow: 0.15px 0 1px rgba(0, 30, 255, 0.5), -0.15px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    35% {
+        text-shadow: 0.7px 0 1px rgba(0, 30, 255, 0.5), -0.7px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    40% {
+        text-shadow: 0.6px 0 1px rgba(0, 30, 255, 0.5), -0.6px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    45% {
+        text-shadow: 0.4px 0 1px rgba(0, 30, 255, 0.5), -0.4px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    50% {
+        text-shadow: 0.05px 0 1px rgba(0, 30, 255, 0.5), -0.05px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    55% {
+        text-shadow: 0.6px 0 1px rgba(0, 30, 255, 0.5), -0.6px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    60% {
+        text-shadow: 0.55px 0 1px rgba(0, 30, 255, 0.5), -0.55px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    65% {
+        text-shadow: 0.7px 0 1px rgba(0, 30, 255, 0.5), -0.7px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    70% {
+        text-shadow: 0.1px 0 1px rgba(0, 30, 255, 0.5), -0.1px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    75% {
+        text-shadow: 0.5px 0 1px rgba(0, 30, 255, 0.5), -0.5px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    80% {
+        text-shadow: 0.02px 0 1px rgba(0, 30, 255, 0.5), -0.02px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    85% {
+        text-shadow: 0.03px 0 1px rgba(0, 30, 255, 0.5), -0.03px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    90% {
+        text-shadow: 0.7px 0 1px rgba(0, 30, 255, 0.5), -0.7px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    95% {
+        text-shadow: 0.4px 0 1px rgba(0, 30, 255, 0.5), -0.4px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+    100% {
+        text-shadow: 0.5px 0 1px rgba(0, 30, 255, 0.5), -0.5px 0 1px rgba(255, 0, 80, 0.3), 0 0 1px;
+    }
+}

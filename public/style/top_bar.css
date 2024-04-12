@@ -1,0 +1,57 @@
+#top_bar {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    color: black;
+    font-weight: bold;
+    z-index: 999;
+    table-layout: auto;
+    border-style: none;
+}
+
+.right_offset {
+    width: 12%;
+}
+
+#terminal_mentions {
+    text-align: right;
+}
+
+#top_bar tr td {
+    padding: 0;
+}
+
+#fin_bar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+#scroll_test_container {
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.scrolling_text {
+    animation: 10s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#top_bar td a {
+    background-color: black;
+}
+
+#top_bar td a:hover {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,10 @@
+#messages_footer {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}

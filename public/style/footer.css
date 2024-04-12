@@ -1,0 +1,42 @@
+#footer {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    /*background-color: aqua;*/
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+#theme_picker {
+    width: 5%;
+}
+
+.theme_square {
+    height: 20px;
+    width: 20px;
+    z-index: 999;
+    cursor: pointer;
+    display: inline;
+}
+
+#info_line {
+    width: 13%;
+    text-align: center;
+}
+
+#footer tr td {
+    padding: 0;
+}
+
+#private_messages {
+    width: 18%;
+    text-align: center;
+}
+
+#center_line {
+    width: 40%;
+    text-align: center;
+}

@@ -1,0 +1,131 @@
+.overlay_table {
+    position: absolute;
+    top: 22px;
+    left: 80px;
+    background-color: transparent;
+    z-index: 1;
+    font-weight: bold;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered_gallery_table_header {
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 0;
+    display: none;
+}
+
+#centered_gallery_table_footer {
+    position: absolute;
+    width: 50%;
+    height: 4%;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
+}
+
+#centered_gallery_table {
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    overflow: auto;
+    display: none;
+    background-color: black;
+}
+
+#centered_gallery_table tbody {
+    display: table;
+    width: 100%;
+}
+
+#gallery_core {
+    width: 100%;
+    text-align: center;
+}
+
+#centered_gallery_table td {
+    padding: 0;
+    /*width: 100%;*/
+}
+
+#gallery_header {
+    width: 100%;
+    color: black;
+}
+
+#gallery_footer {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    color: black;
+    font-weight: bold;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+#gallery_ctrl_row {
+    text-align: center;
+    width: 100%;
+}
+
+#dl_link {
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#dl_link:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.gallery_arr:hover {
+    cursor: pointer;
+}
+
+.gallery_ctrl {
+    width: 100%;
+}
+
+#gallery_img {
+    /*width: 100%;*/
+    height: 320px;
+    display: block;
+    margin: auto;
+}
+
+#centered_gallery_table tr {
+    width: 100%;
+}
+
+#centered_gallery_table th, #centered_gallery_table td {
+    border: 1px solid aqua;
+}
+
+.hidden {
+    display: none;
+}

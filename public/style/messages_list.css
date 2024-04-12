@@ -1,0 +1,33 @@
+.messages_list_container {
+    /*display: inline-block;*/
+    position: absolute;
+    width: 40%;
+    text-align: center;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.msg_topic {
+    width: 80%;
+}
+
+
+#messages_list tr {
+    color: black;
+}
+
+#messages_list tr:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#messages_list tr td {
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+

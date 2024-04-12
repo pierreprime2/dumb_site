@@ -1,0 +1,77 @@
+.reverse_menu_item {
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    padding: 0 0 0 25%;
+}
+
+.reverse_menu_item a:hover {
+    background-color: white;
+    color: black;
+}
+
+.reverse_menu_item a {
+    text-decoration: none;
+}
+
+#right_grid {
+    position: fixed;
+    top: 7%;
+    right: 12%;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 15%;
+}
+
+#right_grid tr {
+    padding: 0;
+}
+
+#esper_tr {
+    padding: 0;
+}
+
+#esper_td {
+    padding: 0;
+}
+
+/* right menu styling */
+#link_list_container {
+    padding: 0;
+    width: 100%;
+}
+
+#link_list_container td {
+    width: 100%;
+    text-align: left;
+    padding: 0;
+}
+
+#link_list {
+    text-align: left;
+    width: 100%;
+}
+
+#link_list tr td {
+    padding: 0;
+    background-color: black;
+}
+
+#link_list tr td:hover {
+    background-color: white;
+    color: black;
+}
+
+#link_list a {
+    text-align: left;
+    width: 100%;
+}
+
+#link_list li a:hover {
+    color: black;
+}
+
+#right_grid tr td {
+    font-style: normal;
+}
