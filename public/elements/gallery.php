@@ -10,7 +10,7 @@
         <tr>
             <td id="gallery_core">
                 <!-- display image here -->
-                <img id="gallery_img" src="../images/gallery/blade_runner.jpg" alt="">
+                <img id="gallery_img" src="../assets/images/gallery/blade_runner.jpg" alt="">
             </td>
         </tr>
         <tr>

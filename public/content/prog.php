@@ -23,7 +23,7 @@
 \____/\____/\__,_/_/_/ /_/\__, /
                          /____/
             </pre>
-            <img id="illustrate" src="images/prog.gif" alt="">
+            <img id="illustrate" src="../assets/images/prog.gif" alt="">
             <p>
                 So you decided to code like it's 1995 or so ? Here are some resources.
             </p><br>

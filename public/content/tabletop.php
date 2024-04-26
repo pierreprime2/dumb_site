@@ -25,7 +25,7 @@
 /_/  \__,_/_.___/_/\___/\__/\____/ .___/
                                 /_/
                 </pre>
-                <img src="images/tabletop.jpg" alt="" id="illustrate">
+                <img src="../assets/images/tabletop.jpg" alt="" id="illustrate">
                 <p><img width="50" src="images/book.png" alt="">
                     Ressources JDR</p>
                 <ul>

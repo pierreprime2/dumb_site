@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include_once 'elements/header.php' ?>
+    <?php include_once PATH_ELEMENTS . 'header.php' ?>
     <title>Home | NCTerm</title>
 </head>
-<?php include_once 'elements/body.php' ?>
+<?php include_once PATH_ELEMENTS . 'body.php' ?>
 <!-- matrix rain columns -->
-<?php include_once 'elements/canvas.php'; ?>
+<?php include_once PATH_ELEMENTS . 'canvas.php'; ?>
 
-<?php include_once 'elements/top_bar.php' ?>
+<?php include_once PATH_ELEMENTS . 'top_bar.php' ?>
 
-<?php include_once 'elements/user_welcome.php' ?>
+<?php include_once PATH_ELEMENTS . 'user_welcome.php' ?>
 
-<?php include_once 'elements/link_panel.php' ?>
+<?php include_once PATH_ELEMENTS . 'link_panel.php' ?>
 
 <table id="grid">
     <tr>
@@ -26,7 +26,7 @@
 |__/|__/\___/_/\___/\____/_/ /_/ /_/\___/
             </pre>
             <br>
-            <img id="banner" src="images/neighborhood.gif" alt="hongkong"><br><br>
+            <img id="banner" src="../assets/images/neighborhood.gif" alt="hongkong"><br><br>
             <p align="justified">
                 Here on this site you will find all the resources I love about classic Cyberpunk culture, mainly from
                 the 80s and 90s. Immerse in a universe defined by the aesthetics of huge neon scryscrapers in the rainy
@@ -65,13 +65,13 @@
     <!--    </tr>-->
 </table>
 
-<?php include_once 'elements/footer.php' ?>
+<?php include_once PATH_ELEMENTS . 'footer.php' ?>
 
 <!-- Messages overlay -->
 
-<?php include_once 'elements/messages.php' ?>
+<?php include_once PATH_ELEMENTS . 'messages.php' ?>
 
 <!--</font>-->
-<?php include_once 'elements/scripts.php' ?>
+<?php include_once PATH_ELEMENTS . 'scripts.php' ?>
 </body>
 </html>

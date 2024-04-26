@@ -22,7 +22,7 @@
  / __/ / /_/ / /  / /_/ / / / / / /
 /_/    \____/_/   \__,_/_/ /_/ /_/
             </pre>
-            <img src="images/forum.gif" alt="" id="illustrate">
+            <img src="../assets/images/forum.gif" alt="" id="illustrate">
             <table class="data_array" border="solid" width="100%">
                 <tr>
                     <td>Date</td>
@@ -32,7 +32,7 @@
                 <tr>
                     <td>07-11-23</td>
                     <td><a
-                                class="<?= $theme ?>_main_color" href="index.php?route=forum_topic">Vous aimez le cyberpunk les amis ?</a></td>
+                                class="<?= $theme ?>_main_color" href="../index.php?route=forum_topic">Vous aimez le cyberpunk les amis ?</a></td>
                     <td></td>
                 </tr>
             </table>

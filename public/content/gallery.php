@@ -23,7 +23,7 @@
 \____/\__,_/_/_/\___/_/   \__, /
                          /____/
             </pre>
-            <img src="images/gallery.png" alt="" id="illustrate">
+            <img src="../assets/images/gallery.png" alt="" id="illustrate">
 
             <p id="img_gallery">////////// VISIT MY IMAGES GALLERY ! //////////</p><br><br>
 <!--            <img class="poster" src="images/gallery/blade_runner.jpg" alt="">-->

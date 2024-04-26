@@ -22,7 +22,7 @@
  / /  / / /_/ (__  ) / /__
 /_/  /_/\__,_/____/_/\___/
             </pre>
-            <img id="illustrate" width="200" src="images/jogger.gif" alt="">
+            <img id="illustrate" width="200" src="../assets/images/jogger.gif" alt="">
             <table border="solid" class="data_array" style="font-size: 5px">
                 <tr>
                     <td>Album name</td>

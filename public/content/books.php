@@ -24,7 +24,7 @@
 /_____/\____/\____/_/|_/____/
 
             </pre>
-            <img id="illustrate" height="200px" src="images/books.jpg" alt=""><br><br>
+            <img id="illustrate" height="200px" src="../assets/images/books.jpg" alt=""><br><br>
             <table class="data_array" border="solid" width="100%">
                 <tr>
                     <td>Titre</td>

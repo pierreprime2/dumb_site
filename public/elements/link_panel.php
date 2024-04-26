@@ -5,7 +5,7 @@
 </th>
 <tr id="esper_tr">
     <td id="esper_td">
-        <img width="200" src="images/esper.jpg" alt="">
+        <img width="200" src="../assets/images/esper.jpg" alt="">
     </td>
 </tr>
 <tr id="link_list_container">

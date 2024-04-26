@@ -23,7 +23,7 @@
 \____/\__,_/_/ /_/ /_/_/_/ /_/\__, /
                              /____/
             </pre>
-            <img src="images/gaming.png" alt="" id="illustrate">
+            <img src="../assets/images/gaming.png" alt="" id="illustrate">
             <p>Here we'll focus on 1980s and 1990s computer gaming mainly, centered on science-fiction themes.</p>
             <table border="solid" class="data_array" style="font-size: 5px">
                 <tr>

@@ -22,7 +22,7 @@
 /_/  /_/\____/|___/_/\___/____/
 
             </pre>
-            <img id="illustrate" src="images/movies.gif" alt="">
+            <img id="illustrate" src="../assets/images/movies.gif" alt="">
             <!-- content here -->
             <table class="data_array" border="solid" width="100%">
                 <h1>Movies to watch</h1>

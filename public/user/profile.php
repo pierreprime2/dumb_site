@@ -35,7 +35,7 @@
                         <p>Signature : $signature</p>
                         <p>Favorite theme : $favoriteTheme</p>
                         <a
-                            class=\"".$theme."_main_color\" href='index.php?route=profile_modify'>Modify</a>
+                            class=\"".$theme."_main_color\" href='../index.php?route=profile_modify'>Modify</a>
                     ";
             } else {
                 echo "<p>Your are not connected yet.</p>";
